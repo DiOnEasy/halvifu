@@ -621,10 +621,12 @@ main {
 }
 
 .tokenomics__content {
-    gap: 9.5vw;
+    /* gap: 9.5vw; */
+    justify-content: space-between;
     display: grid;
-    grid-template-columns: 22.6vw 42.5vw;
+    grid-template-columns: 392px 735px;
     align-items: center;
+    gap: 50px;
 }
 
 .tokenomics__text {
@@ -674,7 +676,9 @@ main {
 .tokenomics__stat {
     align-items: center;
     display: flex;
-    gap: 5.8vw;
+    justify-content: space-between;
+    /* gap: 7vw; */
+    gap: 25px;
 }
 
 .tokenomics__percentage {
@@ -690,7 +694,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 215px;
+    width: 215px;
+    height: 91px;
 
 }
 
@@ -719,7 +724,7 @@ main {
     font-weight: 700;
     line-height: 27.31px;
     text-align: center;
-    padding: 18px 46px;
+    padding: 18px 18px;
     position: relative;
     z-index: 2;
     border-radius: 7px;
