@@ -1,4 +1,8 @@
 @media (max-width:1440px) {
+    .journey__img {
+
+        top: 2550px;
+    }
 
     .header,
     .header__top {
@@ -314,6 +318,11 @@
 }
 
 @media (max-width:1024px) {
+ 
+
+    .journey__img {
+        display: none;
+    }
 
     .journey__item:nth-child(1)::before,
     .half-circle_small,
@@ -581,9 +590,16 @@
 }
 
 @media (max-width:640px) {
-    .burger{
+    .header__top {
+        background: #1e0b52;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+    }
+
+    .burger {
         display: flex;
     }
+
     .tick__content {
         padding-top: 50px;
     }
