@@ -18,17 +18,30 @@
                         <img src="img/logo.png" alt="">
                         <span>Halvifu</span>
                     </div>
+
                     <div class="header__nav">
                         <a href="">Home</a>
                         <a href="">By HALVIFU</a>
                         <a href="">Stake</a>
                         <a href="">About</a>
+                        <div class="header__nav-socials">
+                            <a class="" href=""> <img src="img/twitter-green.svg" alt="">
+                            </a>
+                            <a class="" href=""> <img src="img/telegram-green.svg" alt="">
+                            </a>
+                        </div>
+
                     </div>
                     <div class="header__social">
                         <a href=""> <img src="img/twitter-green.svg" alt="">
                         </a>
                         <a href=""> <img src="img/telegram-green.svg" alt="">
                         </a>
+                    </div>
+                    <div class="burger">
+                        <img class="header__open" src="img/burger.svg" alt="">
+                        <img class="header__close none" src="img/close.svg" alt="">
+
                     </div>
                 </div>
                 <div class="header__bottom">
@@ -48,25 +61,26 @@
                 <div class="count__header">
                     bitcoin halving countdown
                 </div>
-                <div class="count__time">
+                <div class="count__time" id="countdown">
                     <div class="count__time-item count__days">
-                        <span>99</span>
-                        <span>days</span>
+                        <span class="count__time-num" id="days">99</span>
+                        <span class="count__time-text">days</span>
                     </div>
                     <div class="count__time-item count__hours">
-                        <span>47</span>
-                        <span>hours</span>
+                        <span class="count__time-num" id="hours">47</span>
+                        <span class="count__time-text">hours</span>
                     </div>
                     <div class="count__time-item count__minutes">
-                        <span>25</span>
-                        <span>minutes</span>
+                        <span class="count__time-num" id="minutes">25</span>
+                        <span class="count__time-text">minutes</span>
                     </div>
                     <div class="count__time-item count__seconds">
-                        <span>14</span>
-                        <span>seconds</span>
+                        <span class="count__time-num" id="seconds">14</span>
+                        <span class="count__time-text">seconds</span>
                     </div>
                 </div>
             </div>
+            
             <div class="join">
                 <div class="join__img">
                     <img src="img/join-img.png" alt="">
@@ -185,20 +199,35 @@
                         <div class="journey__item">
                             <div class="journey__text">Launch of $HALVIFU, with initial meme battles and NFT drops.
                             </div>
-                            <div class="journey__num"><svg class="half-circle" width="122" height="243"
+                            <div class="journey__num"><svg class="half-circle half-circle_big" width="122" height="243"
                                     viewBox="0 0 122 243" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M0.255175 240.061C65.5309 240.061 118.447 187.013 118.447 121.575C118.447 56.1362 65.5309 3.08789 0.255175 3.08789"
                                         stroke="#2CA902" stroke-width="6" />
-                                </svg>p.1</div>
+                                </svg>
+
+                                <svg class="half-circle half-circle_small" width="87" height="174" viewBox="0 0 87 174"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M3.42754e-05 172C46.9442 172 85.0001 133.944 85.0001 87C85.0001 40.0558 46.9442 2 3.42754e-05 2"
+                                        stroke="#2CA902" stroke-width="4" />
+                                </svg>
+
+                                p.1
+                            </div>
 
                         </div>
                         <div class="journey__item">
-                            <div class="journey__num"><svg class="half-circle" width="122" height="243"
+                            <div class="journey__num"><svg class="half-circle half-circle_big" width="122" height="243"
                                     viewBox="0 0 122 243" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M0.255175 240.061C65.5309 240.061 118.447 187.013 118.447 121.575C118.447 56.1362 65.5309 3.08789 0.255175 3.08789"
                                         stroke="#2CA902" stroke-width="6" />
+                                </svg><svg class="half-circle half-circle_small" width="87" height="174"
+                                    viewBox="0 0 87 174" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M3.42754e-05 172C46.9442 172 85.0001 133.944 85.0001 87C85.0001 40.0558 46.9442 2 3.42754e-05 2"
+                                        stroke="#2CA902" stroke-width="4" />
                                 </svg>p.2</div>
                             <div class="journey__text">Celebrate our first halving event with a major
                                 online event.</div>
@@ -207,20 +236,30 @@
                         <div class="journey__item">
                             <div class="journey__text">Expand the dojo: More staking, more rewards, and community
                                 governance.</div>
-                            <div class="journey__num"><svg class="half-circle" width="122" height="243"
+                            <div class="journey__num"><svg class="half-circle half-circle_big" width="122" height="243"
                                     viewBox="0 0 122 243" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M0.255175 240.061C65.5309 240.061 118.447 187.013 118.447 121.575C118.447 56.1362 65.5309 3.08789 0.255175 3.08789"
                                         stroke="#2CA902" stroke-width="6" />
+                                </svg><svg class="half-circle half-circle_small" width="87" height="174"
+                                    viewBox="0 0 87 174" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M3.42754e-05 172C46.9442 172 85.0001 133.944 85.0001 87C85.0001 40.0558 46.9442 2 3.42754e-05 2"
+                                        stroke="#2CA902" stroke-width="4" />
                                 </svg>p.3</div>
 
                         </div>
                         <div class="journey__item">
-                            <div class="journey__num"><svg class="half-circle" width="122" height="243"
+                            <div class="journey__num"><svg class="half-circle half-circle_big" width="122" height="243"
                                     viewBox="0 0 122 243" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M0.255175 240.061C65.5309 240.061 118.447 187.013 118.447 121.575C118.447 56.1362 65.5309 3.08789 0.255175 3.08789"
                                         stroke="#2CA902" stroke-width="6" />
+                                </svg><svg class="half-circle half-circle_small" width="87" height="174"
+                                    viewBox="0 0 87 174" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M3.42754e-05 172C46.9442 172 85.0001 133.944 85.0001 87C85.0001 40.0558 46.9442 2 3.42754e-05 2"
+                                        stroke="#2CA902" stroke-width="4" />
                                 </svg>p.4</div>
                             <div class="journey__text">Partner with other crypto projects for inter-memecoin challenges.
                             </div>
@@ -285,7 +324,7 @@
                                     Growth</p>
                             </div>
                             <div class="tokenomics__percentage-item">
-                                <p>5%</p>
+                                <p>85%</p>
                                 <p>Liquidity
                                     Pool</p>
                             </div>
@@ -364,6 +403,11 @@
 
         </footer>
     </div>
+    <div class="copy__alert none">
+        Wallet address added to clipboard!
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/countdown.js"></script>
 </body>
 
 </html>
