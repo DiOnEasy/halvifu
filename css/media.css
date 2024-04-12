@@ -581,6 +581,9 @@
 }
 
 @media (max-width:640px) {
+    .burger{
+        display: flex;
+    }
     .tick__content {
         padding-top: 50px;
     }
